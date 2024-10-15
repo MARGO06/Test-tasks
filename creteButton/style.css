@@ -66,6 +66,18 @@ body {
   transition: 2s;
 }
 
+.button-travel.active {
+  background-color: rgba(224, 103, 235, 0.886);
+}
+
+.button-travel.active:hover {
+  background-color: rgba(143, 49, 151, 0.886);
+}
+
 .rome-article {
   display: none;
+}
+
+.rome-article.active {
+  display: block;
 }
