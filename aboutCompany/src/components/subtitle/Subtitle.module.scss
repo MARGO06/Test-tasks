@@ -1,0 +1,23 @@
+.subtitle {
+  display: flex;
+}
+
+.leftLine {
+  width: 6.4%;
+}
+
+.rightLine {
+  width: 84%;
+}
+
+.leftLine,
+.rightLine {
+  display: block;
+  height: 2px;
+  background-color: #ffffff;
+  align-self: center;
+}
+
+h2 {
+  padding: 0px 5px 0px 5px;
+}

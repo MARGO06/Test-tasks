@@ -1,0 +1,49 @@
+.follow {
+  background-image: url("../../assets/Follow.png");
+  height: 640px;
+  margin: 0px auto;
+}
+
+.sectionWrapper {
+  padding-top: 144px;
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+.overline,
+.underline {
+  width: 32%;
+}
+
+.collectionLink {
+  display: flex;
+  margin-top: 50px;
+}
+
+.line {
+  display: block;
+  align-self: center;
+  margin-left: 10px;
+  width: 5%;
+}
+
+.overline,
+.underline,
+.line {
+  height: 2px;
+  background-color: #ffffff;
+}
+
+h1,
+.text {
+  color: #ffffff;
+}
+
+h1 {
+  margin: 5px 0px 5px 0px;
+  letter-spacing: 3px;
+}
+
+.text {
+  font-size: 2.4rem;
+}

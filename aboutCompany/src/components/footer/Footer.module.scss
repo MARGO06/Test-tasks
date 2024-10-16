@@ -1,0 +1,15 @@
+.footerWrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px;
+  max-width: 1200px;
+  margin: 0px auto;
+  font-size: 1.8rem;
+}
+
+.navigation {
+  width: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

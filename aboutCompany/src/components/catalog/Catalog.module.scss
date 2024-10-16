@@ -1,0 +1,16 @@
+.catalog {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.linkCatalog {
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+  width: 80%;
+}
+
+.photoCatalog {
+  display: block;
+  width: 80%;
+}
