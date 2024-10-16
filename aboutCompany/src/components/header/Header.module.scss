@@ -1,0 +1,31 @@
+.headerWrapper {
+  max-width: 1200px;
+  padding: 35px 0px;
+  margin: 0 auto;
+}
+
+.navigation,
+.leftSection,
+.rightSection {
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftSection,
+.rightSection {
+  width: 20%;
+  align-items: center;
+}
+
+.rightSection {
+  width: 15%;
+}
+
+.navigationSection,
+.navigationLogo {
+  font-size: 1.6rem;
+}
+
+.navigationLogo {
+  font-size: 3.2rem;
+}
