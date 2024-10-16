@@ -1,0 +1,34 @@
+.wrapperSection {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+.informationSection {
+  width: 28%;
+  font-size: 1.8rem;
+}
+
+.information {
+  text-align: justify;
+}
+
+.photos {
+  position: relative;
+}
+
+.photoGirl {
+  display: block;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.photoPodium {
+  display: block;
+  position: absolute;
+  bottom: 80px;
+  left: -80px;
+  width: 45%;
+}
