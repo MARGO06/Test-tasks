@@ -1,0 +1,59 @@
+.contactsUs {
+  background-image: url("../../assets/contact.png");
+  height: 600px;
+  margin: 0px auto;
+}
+
+.sectionWrapper {
+  display: flex;
+  padding-top: 120px;
+  max-width: 1200px;
+  margin: 0px auto;
+  color: #ffffff;
+}
+
+.form {
+  width: 35%;
+}
+
+.form,
+.sendForm {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="text"] {
+  width: 50%;
+  height: 25px;
+  margin-top: 5px;
+}
+
+.information,
+.labelForm,
+.question {
+  font-size: 1.8rem;
+}
+
+.labelForm,
+.buttonSubmit {
+  margin-top: 20px;
+}
+
+.accept {
+  margin-left: 7px;
+  font-size: 1.4rem;
+}
+
+.buttonSubmit {
+  width: 140px;
+  font-size: 1.6rem;
+  padding: 5px;
+}
+
+.contactInfo {
+  margin-left: 20%;
+}
+
+.information {
+  margin-top: 250px;
+}

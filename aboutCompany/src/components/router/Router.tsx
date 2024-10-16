@@ -6,6 +6,7 @@ import { Collection } from "../collection/Collection";
 import { Header } from "../header/Header";
 import { Main } from "../main/Main";
 import { SignIn } from "../signIn/SignIn";
+import { Footer } from "../footer/Footer";
 
 export const Router: React.FC = () => {
   return (
@@ -18,6 +19,7 @@ export const Router: React.FC = () => {
         <Route path="/collection" element={<Collection />} />
         <Route path="/aboutUs" element={<About />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 };
