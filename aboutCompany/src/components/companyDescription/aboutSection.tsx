@@ -1,13 +1,13 @@
 import React from "react";
-import style from "../aboutSection/aboutSection.module.scss";
+import style from "../companyDescription/aboutSection.module.scss";
 import faceImage from "../../assets/girl_face.png";
 import podium from "../../assets/Podium.png";
 import { Subtitle } from "../subtitle/Subtitle";
 import { LinkInfo } from "../link/LinkInformation";
 
-export const AboutSection: React.FC = () => {
+export const CompanyDescription: React.FC = () => {
   return (
-    <section className={style.aboutUs}>
+    <section className={style.companyDescription}>
       <Subtitle title="ABOUT US" />
       <div className={style.wrapperSection}>
         <div className={style.informationSection}>
@@ -16,11 +16,13 @@ export const AboutSection: React.FC = () => {
             Davis. The brand was born in the Italy city of Florence. The main
             focus is the production and development of fashion trends in
             clothing and accessories for women.
-            <br></br>
+          </p>
+          <p className={style.information}>
             The first specialty store that offered DAISY clothing was a boutique
             in Florencia. It was opened the same year the firm opened. After a
             year there was a shop in Rome.
-            <br></br>
+          </p>
+          <p className={style.information}>
             The company was actively developing and soon entered the
             international market.
           </p>

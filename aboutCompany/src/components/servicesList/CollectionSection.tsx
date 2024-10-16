@@ -1,12 +1,12 @@
 import React from "react";
-import style from "../collectionsSection/CollectionSections.module.scss";
+import style from "../servicesList/CollectionSections.module.scss";
 import clothing from "../../assets/clothing.png";
 import shoes from "../../assets/shoes.png";
 import { CatalogTitle } from "../catalog/Catalog";
 import { Subtitle } from "../subtitle/Subtitle";
 import { LinkInfo } from "../link/LinkInformation";
 
-export const CollectionSection: React.FC = () => {
+export const ServicesInfo: React.FC = () => {
   return (
     <section className={style.collections}>
       <Subtitle title="Collections" />

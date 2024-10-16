@@ -1,7 +1,7 @@
 import React from "react";
-import style from "../contacts/Contacts.module.scss";
+import style from "../contactInfo/Contacts.module.scss";
 
-export const ContactUs: React.FC = () => {
+export const ContactInfo: React.FC = () => {
   return (
     <section className={style.contactsUs}>
       <div className={style.sectionWrapper}>
