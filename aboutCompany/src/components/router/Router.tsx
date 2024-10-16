@@ -13,11 +13,11 @@ export const Router: React.FC = () => {
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route path="/" element={<Main />} />
-        <Route path="/signIn" element={<SignIn />} />
-        <Route path="/signUp" element={<SignUp />} />
-        <Route path="/collection" element={<Collection />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/Test-tasks/" element={<Main />} />
+        <Route path="/Test-tasks/signIn" element={<SignIn />} />
+        <Route path="/Test-tasks/signUp" element={<SignUp />} />
+        <Route path="/Test-tasks/collection" element={<Collection />} />
+        <Route path="/Test-tasks/about" element={<About />} />
       </Routes>
       <Footer />
     </BrowserRouter>

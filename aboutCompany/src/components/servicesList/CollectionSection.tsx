@@ -13,7 +13,7 @@ export const ServicesInfo: React.FC = () => {
       <div className={style.wrapperSection}>
         <div className={style.informationSection}>
           <p className={style.catalogTitles}>SPRING/SUMMER 2024</p>
-          <LinkInfo to="/catalog" />
+          <LinkInfo to="/Test-tasks/catalog" />
         </div>
         <div className={style.catalogs}>
           <CatalogTitle src={clothing} alt="photo_model" title="Clothing" />

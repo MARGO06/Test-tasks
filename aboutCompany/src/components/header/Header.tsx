@@ -8,23 +8,26 @@ export const Header: React.FC = () => {
       <div className={style.headerWrapper}>
         <nav className={style.navigation}>
           <div className={style.leftSection}>
-            <Link to="/about" className={style.navigationSection}>
+            <Link to="/Test-tasks/about" className={style.navigationSection}>
               ABOUT US
             </Link>
-            <Link to="/collection" className={style.navigationSection}>
+            <Link
+              to="/Test-tasks/collection"
+              className={style.navigationSection}
+            >
               COLLECTION
             </Link>
           </div>
           <div className={style.centreSections}>
-            <Link to="/" className={style.navigationLogo}>
+            <Link to="/Test-tasks/" className={style.navigationLogo}>
               DAISY
             </Link>
           </div>
           <div className={style.rightSection}>
-            <Link to="/signIn" className={style.navigationSection}>
+            <Link to="/Test-tasks/signIn" className={style.navigationSection}>
               SIGN IN
             </Link>
-            <Link to="/signUp" className={style.navigationSection}>
+            <Link to="/Test-tasks/signUp" className={style.navigationSection}>
               SIGN UP
             </Link>
           </div>

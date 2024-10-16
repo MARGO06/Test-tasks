@@ -12,13 +12,13 @@ export const Footer: React.FC = () => {
         <p className={style.nameCompany}>DAISY</p>
         <p className={style.year}>2024</p>
         <nav className={style.navigation}>
-          <Link to="/signIn" className={style.navigationSection}>
+          <Link to="#" className={style.navigationSection}>
             <img src={instagram} alt="icon" />
           </Link>
-          <Link to="/signUp" className={style.navigationSection}>
+          <Link to="#" className={style.navigationSection}>
             <img src={facebook} alt="icon" />
           </Link>
-          <Link to="/collection" className={style.navigationSection}>
+          <Link to="#" className={style.navigationSection}>
             <img src={twitter} alt="icon" />
           </Link>
         </nav>

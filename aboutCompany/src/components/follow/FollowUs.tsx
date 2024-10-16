@@ -9,7 +9,7 @@ export const FollowUs: React.FC = () => {
         <div className={style.overline}></div>
         <h1>FOLLOW US</h1>
         <div className={style.underline}></div>
-        <Link to="/collection" className={style.collectionLink}>
+        <Link to="/Test-tasks/collection" className={style.collectionLink}>
           <span className={style.text}>SEE MORE</span>
           <span className={style.line}></span>
         </Link>
